@@ -3,7 +3,12 @@
 
 void hello1(void)
 {
-  printf(stdout, "This literal is displayed on standard output\n");
+  printf("This literal is displayed on standard output\n");
+}
+
+void hello2(void)
+{
+  printf("Another message\n");
 }
 
 int main(void)
