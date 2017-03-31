@@ -12,6 +12,12 @@ void hello2(void)
   printf(msg);
 }
 
+void hello3(void)
+{
+  const char msg[] = "Another message\n";
+  printf(msg);
+}
+
 int main(void)
 {
   hello1();
