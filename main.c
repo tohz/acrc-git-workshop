@@ -8,7 +8,8 @@ void hello1(void)
 
 void hello2(void)
 {
-  printf("Another message\n");
+  const char msg[] = "Another message\n";
+  printf(msg);
 }
 
 int main(void)
