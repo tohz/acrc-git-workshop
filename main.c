@@ -3,8 +3,7 @@
 
 void hello1(void)
 {
-  const char msg[] = "This literal is displayed on standard output\n";
-  fprintf(stdout, msg);
+  fprintf(stdout, "This literal is displayed on standard output\n");
 }
 
 void hello2(void)
