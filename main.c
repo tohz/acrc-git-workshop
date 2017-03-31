@@ -15,6 +15,7 @@ void hello2(void)
 int main(void)
 {
   hello1();
+  hello2();
   
   return EXIT_SUCCESS;
 }
