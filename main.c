@@ -4,7 +4,7 @@
 void hello1(void)
 {
   const char msg[] = "This literal is displayed on standard output\n";
-  printf(msg);
+  fprintf(stdout, msg);
 }
 
 void hello2(void)
